@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slack prototype</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- TODO: Slack copycat markup -->
+    <div class="chat">
+      <div class="row">
+        <div class="badges col-1 d-flex pt-2">
+          <div class=" badges-links d-flex flex-column align-items-center">
+            <a href="" class="purple">LW</a>
+            <a href="" class="dark-purple">SW</a>
+          </div>
+        </div>
+        <div class="sidebars col-2 pt-2">
+          <h1>Le wagon</h1>
+          <div class="chats green"><i class="fas fa-circle mr-2 my-2"></i>tiago-enes</div>
+          <div class="channels-list">
+            <div class="channel d-flex justify-content-between  align-items-center">
+              <h3>Channels</h2>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="white">
+              <a href=""><i class="fas fa-bus pr-2 my-2"></i>General</a>
+            </div>
+            <div class="white">
+              <a href=""><i class="fas fa-bus pr-2 my-2"></i></i>Help</a>
+            </div>
+          </div>
+          <div class="direct-messages-list">
+            <div class="channel d-flex justify-content-between  align-items-center">
+              <h3>Direct Messages</h2>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="green">
+              <a href=""><i class="fas fa-plug pr-2 my-2"></i>A Turing</a>
+            </div>
+            <div class="green">
+              <a href=""><i class="fas fa-plug pr-2 my-2"></i></i>SteveJ</a>
+            </div>
+            <div class="white">
+              <a href=""><i class="fas fa-plug pr-2 my-2"></i></i>ZuZuMarko</a>
+            </div>
+          </div>
+        </div>
+        <div class="messages col-9 d-flex flex-column ">
+          <div class="flex-grow-1 m-3">
+              <h1 class="border-bottom mb-3"><i class="fas fa-bus pr-2"></i>General</h1>
+              <div class="m-2 d-flex">
+                <img src="https://altrincham.todaynews.co.uk/wp-content/uploads/sites/7/2019/07/alanturing-e1563194796253-1024x904.jpg" width="70" class="rounded-circle" alt="">
+                <div class="ml-2">
+                  <div>ATuring</div>
+                  <div>Hey everyone 👋 We’ve just launched a new Le Wagon UI Kit 🚀 👉 <a href="">https://uikit.lewagon.com/</a></div>
+                </div>
+              </div>
+              <div class="m-2 d-flex">
+                <img src="https://www.channel4.com/media/images/Channel4/c4-news/JAN/17/17_stevejobs2_r_k.jpg" width="70" class="rounded-circle" alt="">
+                <div class="ml-2">
+                  <div>SteveJ</div>
+                  <div>check the new iphone 20. Bigger is better 🍎 <a href="">https://apple.com/</a></div>
+                </div>
+              </div>
+              <div class="m-2 d-flex">
+                <img src="https://altrincham.todaynews.co.uk/wp-content/uploads/sites/7/2019/07/alanturing-e1563194796253-1024x904.jpg" width="70" class="rounded-circle" alt="">
+                <div class="ml-2">
+                  <div>ATuring</div>
+                  <div><a href="">@SteveJ</a> Loooooooooove it 😍😍😍😍😍😍😍😍</div>
+                </div>
+              </div>
+          </div>
+          <div class="d-flex justify-content-between m-2">
+            <input type="text" class="flex-grow-1" placeholder="Type your text here ....">
+            <a href="" class="btn btn-success">Send</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.badges{
+  background-color:#261B25;
+  height: 100vh;
+
+}
+.badges-links{
+  width: 100%;
+}
+.badges-links a{
+  padding: 10px;
+  margin: 2px;
+  color: white;
+  font-weight: bolder;
+}
+.purple{
+  background-color: #4B3949;
+}
+.dark-purple{
+  background-color: black;
+  opacity: 0.8;
+}

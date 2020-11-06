@@ -1,0 +1,23 @@
+.chat{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.chat .green a,.chat .white a{
+  color:white;
+  text-decoration: none
+}
+.chat .green a:hover,.chat .white a:hover{
+  text-decoration: none
+}
+
+.chat .line i{
+  color:green;
+}
+.chat .white i{
+  color:white;
+}
+
+.chat .green i{
+  color:green;
+}
